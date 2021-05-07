@@ -11,7 +11,7 @@ export default{
     black: '#000',
 
     success: '#4E41F0',
-    info: '#F793B1',
+    info: '#F7931B',
     warning: '#E44C4E',
   }
 }
