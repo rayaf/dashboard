@@ -39,6 +39,34 @@ const List: React.FC = () => {
         subtitle={"27/07/2020"}
         amount={"R$ 350,00"}
       />
+      <HistoryFinanceCard
+        cardColor={"#313862"}
+        tagColor={"#E44C4E"}
+        title={"Conta de luz"}
+        subtitle={"27/07/2020"}
+        amount={"R$ 350,00"}
+      />
+      <HistoryFinanceCard
+        cardColor={"#313862"}
+        tagColor={"#E44C4E"}
+        title={"Conta de luz"}
+        subtitle={"27/07/2020"}
+        amount={"R$ 350,00"}
+      />
+      <HistoryFinanceCard
+        cardColor={"#313862"}
+        tagColor={"#E44C4E"}
+        title={"Conta de luz"}
+        subtitle={"27/07/2020"}
+        amount={"R$ 350,00"}
+      />
+      <HistoryFinanceCard
+        cardColor={"#313862"}
+        tagColor={"#E44C4E"}
+        title={"Conta de luz"}
+        subtitle={"27/07/2020"}
+        amount={"R$ 350,00"}
+      />
 
     </Container>
 	);
