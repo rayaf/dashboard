@@ -4,7 +4,7 @@ import ContentHeader from "../../components/ContentHeader";
 import SelectInput from "../../components/SelectInput";
 import HistoryFinanceCard from "../../components/HistoryFinanceCard";
 
-import { Container, Content } from "./styles";
+import { Container, Content, Filters } from "./styles";
 
 const List: React.FC = () => {
   const months = [
@@ -24,49 +24,66 @@ const List: React.FC = () => {
         <SelectInput options={months}/>
         <SelectInput options={years}/>
       </ContentHeader>
-      
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
-      <HistoryFinanceCard
-        tagColor={"#E44C4E"}
-        title={"Conta de luz"}
-        subtitle={"27/07/2020"}
-        amount={"R$ 350,00"}
-      />
+
+      <Filters>
+        <button
+          type="button"
+          className="tag-filter tag-filter-recorrent"
+        >
+          Recorrent
+        </button>
+        <button
+          type="button"
+          className="tag-filter tag-filter-eventual"
+        >
+          Eventuais
+        </button>
+      </Filters>
+      <Content>
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+        <HistoryFinanceCard
+          tagColor={"#E44C4E"}
+          title={"Conta de luz"}
+          subtitle={"27/07/2020"}
+          amount={"R$ 350,00"}
+        />
+
+      </Content>
 
     </Container>
 	);
